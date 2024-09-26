@@ -12,7 +12,6 @@ const lusitana = Lusitana({
 });
 
 export default async function Page() {
-    const { totalPaidInvoices, totalPendingInvoices, numberOfInvoices, numberOfCustomers } = await fetchCardData();
 
     return (
         <main>
