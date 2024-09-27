@@ -6,6 +6,11 @@ import { Lusitana } from 'next/font/google';
 import { InvoicesTableSkeleton } from '@/app/ui/skeletons';
 import { Suspense } from 'react';
 import { fetchInvoicesPages } from '@/app/lib/data';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'Invoices',
+};
 
 const lusitana = Lusitana({
     weight: ['400', '700'],
