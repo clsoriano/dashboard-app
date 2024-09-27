@@ -2,7 +2,6 @@ import Image from 'next/image';
 import { Lusitana } from 'next/font/google';
 import Search from '@/app/ui/search';
 import {
-  CustomersTableType,
   FormattedCustomersTable,
 } from '@/app/lib/definitions';
 
